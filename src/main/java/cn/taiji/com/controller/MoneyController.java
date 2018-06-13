@@ -1,5 +1,8 @@
 package cn.taiji.com.controller;
 
-public class MoneyController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class MoneyController {
+	
 }
