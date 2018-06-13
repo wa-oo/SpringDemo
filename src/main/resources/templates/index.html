@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8"></meta>
 <title>表格</title>
     <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
@@ -9,7 +8,45 @@
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body >
+<style>
+    .a{
+        text-align: center;
+    }
+    .b{
+        margin-left:50px;
+    }
+    .c{
+        font-size:30px;
+    }
+    .d{
+        width: 600px;
+    }
+</style>
+
+<table class="table d">
+    <caption class="a c">员工表</caption>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>年龄</th>
+        <th>姓名</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>aa</td>
+        <td>Tanmay</td>
+        <td>Bangalore</td>
+        <td>
+            <button class="btn btn-primary">修改</button>
+            <button class="btn btn-primary">删除</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div class="b"><button class="btn btn-primary" >添加</button></div>
 
 <style>
     .a{
