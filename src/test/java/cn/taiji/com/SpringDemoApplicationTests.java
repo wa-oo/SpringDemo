@@ -11,6 +11,7 @@ public class SpringDemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("-------");
 	}
 
 }
